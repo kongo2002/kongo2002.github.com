@@ -12,6 +12,7 @@ body
 h1, h2, h3
 {
     color: #549900;
+    clear: both;
 }
 
 h1
@@ -80,21 +81,45 @@ hr
 
 .summary
 {
-    /* margin: 30px; */
     background: #dfdfdf;
     border-radius: 10px;
     -moz-border-radius: 10px;
     padding: 15px;
 }
 
-.download
+.section
 {
-    float: right;
+    margin: 0px 20px;
+    line-height: 150%;
 }
 
 .footer
 {
+    font-size: 0.8em;
     text-align: center;
     padding-top: 30px;
     font-style: italic;
+}
+
+#authors #detail
+{
+    color: #555;
+    float: right;
+    padding-right: 200px;
+}
+
+#screenshots li
+{
+    float: left;
+    list-style-type: none;
+}
+
+#screenshots img
+{
+    margin: 10px;
+    border: 15px solid #dfdfdf;;
+    border-radius: 15px;
+    padding: 2px;
+    background: #eee;
+    -moz-border-radius: 15px;
 }
