@@ -40,7 +40,8 @@ h2
 
 h3
 {
-    text-align: center;
+    text-align: left;
+    margin-bottom: 8px;
 }
 
 a
@@ -102,6 +103,16 @@ hr
     font-style: italic;
 }
 
+.subsection
+{
+    padding-left: 10px;
+}
+
+.subsection ul
+{
+    margin-top: 5px;
+}
+
 #authors #detail
 {
     color: #555;
@@ -130,3 +141,5 @@ hr
     border-radius: 15px;
     -moz-border-radius: 15px;
 }
+
+/* vim: set et sw=4 sts=4 tw=80: */
