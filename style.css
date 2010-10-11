@@ -113,6 +113,21 @@ hr
     margin-top: 5px;
 }
 
+.light
+{
+    color: #777;
+}
+
+.light a
+{
+    color: #333;
+}
+
+.light a:hover
+{
+    color: #375910;
+}
+
 #authors #detail
 {
     color: #555;
